@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=DM+Serif+Display:ital@0;1&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: #F3E5D8;
+}
+main {
+    max-width: 1000px;
+    background-color: white;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+#image img {
+    width: 950px;
+    border-radius: 10px;
+}
+
+
+#introduction h1 {
+    font-size: 40px;
+    font-family: "DM Serif Display", serif;
+    color: #824431;
+}
+
+#introduction p {
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+#preparation {
+    background-color: #FFF7FC;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+#preparation h2 {
+
+    font-family: "DM Serif Display", serif;
+    color: #6B193B;
+    margin-left: 20px;
+
+}
+
+#preparation ul {
+    margin: 0 20px;
+}
+
+#preparation ul li {
+    font-family: "DM Sans", sans-serif;
+    padding: 5px;
+    font-size: 20px;
+}
+
+main h3 {
+    color: #824431;
+    font-size: 30px;
+    font-family: "DM Serif Display", serif;
+}
+
+main #ingredients {
+    margin: 15px 20px;
+}
+
+main #ingredients li {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+main #instructions {
+    margin: 0 20px;
+}
+
+main #instructions li {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#nutrition {
+    font-family: "DM Sans", sans-serif;
+    font-size: 20px;
+}
+
+.table_right {
+    color: #824431;
+}
+
+main table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+main table tr {
+    border-bottom: 1px solid black;
+}
+
+main table tr td {
+    padding: 10px;
+    font-size: 20px;
+}
